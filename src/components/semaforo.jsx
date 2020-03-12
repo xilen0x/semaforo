@@ -1,23 +1,25 @@
 import React from 'react';
 
-className TrafficLight extends React.Component {
+class Luces extends React.Component {
     constructor() {
         super(); this.state = {
-            alert("hola");
-
+            active: ''
         }
     }
-}
-render(){
-    return (
-        /*Estructura*/
-        <div className="row">
-            <div className="col">
-                <div className="alert alert-danger rounded-circle" role="alert"></div>
-                <div className="alert alert-warning rounded-circle" role="alert"></div>
-                <div className="alert alert-success rounded-circle" role="alert"></div>
+
+
+    render(){
+        return ( /*hacer evento click aki*/
+
+            <div className="container">
+                <div className="row">
+                    <div className="col">
+                        <div className="alert alert-danger rounded-circle" role="alert"></div>
+                        <div className="alert alert-warning rounded-circle" role="alert"></div>
+                        <div className="alert alert-success rounded-circle" role="alert"></div>
+                    </div>
+                </div>
             </div>
-        </div>
-        /*Fin Estructura*/
-    )
-}
+        )
+    }
+} export default Luces;

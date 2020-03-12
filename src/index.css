@@ -1,15 +1,12 @@
 body {
     background-color:#d4dce4;
 }
-.container{
-    margin-top: 30px;
-}
-
 .col{
 display: flex;
 justify-content: center; /*aki para centrar debí utilizar el display:flex de arriba*/
 border-color: black;
 border-style: solid;
+background-color: black;
 }
 .alert-danger {
     background-color: #fc0303;

@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Luces from './components/semaforo.jsx';
 
 // Add css files
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -13,6 +14,6 @@ import './index.css';
 import 'jquery';
 import 'popper.js';
 import 'bootstrap';
-import './components/semaforo.jsx';
 
-ReactDOM.render(<TrafficLight/>, document.querySelector("#root"));
+
+ReactDOM.render(<Luces/>, document.querySelector("#root"));
